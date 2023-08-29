@@ -40,3 +40,50 @@ header {
     border-bottom: 2px solid #f6f8f9;
     line-height: 50px;
 }
+
+.tasks {
+    padding: 20px 50px;
+}
+
+li h3::before {
+    /* https://www.w3schools.com/cssref/css_entities.asp */
+    content: '\25BE';
+}
+
+li {
+    list-style: none;
+    padding: 10px 0;
+    color: #434851;
+}
+
+li.circle {
+    border-bottom: 1px solid #f6f8f9;
+}
+
+li .circle::before {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    border-radius: 50%;
+    line-height: 15px;
+    font-size: 10px;
+    text-align: center;
+}
+
+li .circle.checked::before {
+    content: '\2713';
+    border: 1px solid #2cc6ab;
+    color: #2cc6ab;
+}
+
+.tag {
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 10px;
+    color: white;
+}
+
+.tag-type-1 {
+    background-color: #09a9ed;
+}
