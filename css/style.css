@@ -41,6 +41,34 @@ header {
     line-height: 50px;
 }
 
+.btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn a {
+    text-decoration: none;
+}
+
+.btn-filled {
+    border: 1px solid #14aaf5;
+    background-color: #14aaf5;
+}
+
+.btn-filled a {
+    color: white;
+}
+
+.btn-empty {
+    border: 1px solid #c4cbd0;
+    background-color: white;
+}
+
+.btn-empty a {
+    color: #c4cbd0;
+}
+
 .tasks {
     padding: 20px 50px;
 }
@@ -104,4 +132,12 @@ li .circle.delete::before {
 
 .tag-type-4 {
     background-color: #ff9b00;
+}
+
+.tag-type-5 {
+    background-color: #ec4a9d;
+}
+
+.tag-type-6 {
+    background-color: #a3d116;
 }
