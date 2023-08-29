@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f8f9;
+}
+
+header {
+    height: 70px;
+    padding: 10px 20px;
+    margin-bottom: 40px;
+    background-color: white;
+}
+
+#logo {
+    height: 100%;
+    vertical-align: middle;
+}
+
+#logo-text {
+    font-size: 38px;
+    font-weight: 900;
+    vertical-align: middle;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.top {
+    height: 50px;
+    padding: 0 50px;
+    border-bottom: 2px solid #f6f8f9;
+    line-height: 50px;
+}
