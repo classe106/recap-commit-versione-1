@@ -77,6 +77,12 @@ li .circle.checked::before {
     color: #2cc6ab;
 }
 
+li .circle.delete::before {
+    content: '\2573';
+    border: 1px solid #ff0000;
+    color: #ff0000;
+}
+
 .tag {
     padding: 5px 10px;
     border-radius: 10px;
@@ -86,4 +92,16 @@ li .circle.checked::before {
 
 .tag-type-1 {
     background-color: #09a9ed;
+}
+
+.tag-type-2 {
+    background-color: #ab5de6;
+}
+
+.tag-type-3 {
+    background-color: #2cc6ab;
+}
+
+.tag-type-4 {
+    background-color: #ff9b00;
 }
